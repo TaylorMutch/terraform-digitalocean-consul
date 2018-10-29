@@ -1,3 +1,6 @@
+# TODO - refactor for Digital Ocean!
+
+/*
 output "gcp_region" {
   value = "${var.gcp_region}"
 }
@@ -53,3 +56,4 @@ output "firewall_rule_inbound_dns_url" {
 output "firewall_rule_inbound_dns_name" {
   value = "${element(concat(google_compute_firewall.allow_inbound_dns.*.name, list("")), 0)}"
 }
+*/

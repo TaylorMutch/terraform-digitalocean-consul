@@ -1,8 +1,11 @@
+# TODO - refactor for Digital Ocean!
+
 # ---------------------------------------------------------------------------------------------------------------------
 # THESE TEMPLATES REQUIRE TERRAFORM VERSION 0.10.0 AND ABOVE
 # Why? Because we want the latest GCP updates available in https://github.com/terraform-providers/terraform-provider-google
 # ---------------------------------------------------------------------------------------------------------------------
 
+/*
 terraform {
   required_version = ">= 0.10.0"
 }
@@ -275,3 +278,4 @@ data "google_compute_image" "image" {
   name    = "${var.source_image}"
   project = "${var.gcp_project_id}"
 }
+*/
